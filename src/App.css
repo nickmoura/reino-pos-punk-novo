@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Cinzel', serif;
+  background-color: black;
+  color: white;
+  margin: 0; /* Remova margens padrão do body */
+}
+
+.navbar {
+  width: 100%; /* Garante que a navbar ocupe 100% da largura */
+  height: 8vh;
+  position: fixed; /* Fixe a navbar no topo */
+  top: 0; /* Alinha a navbar ao topo */
+  z-index: 1000; /* Assegura que a navbar esteja acima de outros elementos */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: gold;
+}
+
+a {
+  color: gold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Ajustes adicionais para o layout */
+.container-fluid {
+  padding-top: 1rem; /* Para dar espaço ao conteúdo abaixo da navbar fixa */
+}
+
